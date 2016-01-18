@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D405E7151C4D473600FA6537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D405E7141C4D473600FA6537 /* AppDelegate.swift */; };
+		D405E7171C4D473600FA6537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D405E7161C4D473600FA6537 /* ViewController.swift */; };
+		D405E71A1C4D473600FA6537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D405E7181C4D473600FA6537 /* Main.storyboard */; };
+		D405E71C1C4D473600FA6537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D405E71B1C4D473600FA6537 /* Assets.xcassets */; };
+		D405E71F1C4D473600FA6537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D405E71D1C4D473600FA6537 /* LaunchScreen.storyboard */; };
+		D405E72A1C4D473600FA6537 /* TwoPlayerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D405E7291C4D473600FA6537 /* TwoPlayerGameTests.swift */; };
+		D405E7351C4D473600FA6537 /* TwoPlayerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D405E7341C4D473600FA6537 /* TwoPlayerGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D405E7261C4D473600FA6537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D405E7091C4D473500FA6537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D405E7101C4D473500FA6537;
+			remoteInfo = TwoPlayerGame;
+		};
+		D405E7311C4D473600FA6537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D405E7091C4D473500FA6537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D405E7101C4D473500FA6537;
+			remoteInfo = TwoPlayerGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D405E7111C4D473500FA6537 /* TwoPlayerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoPlayerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D405E7141C4D473600FA6537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D405E7161C4D473600FA6537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D405E7191C4D473600FA6537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D405E71B1C4D473600FA6537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D405E71E1C4D473600FA6537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D405E7201C4D473600FA6537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D405E7251C4D473600FA6537 /* TwoPlayerGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoPlayerGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D405E7291C4D473600FA6537 /* TwoPlayerGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPlayerGameTests.swift; sourceTree = "<group>"; };
+		D405E72B1C4D473600FA6537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D405E7301C4D473600FA6537 /* TwoPlayerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoPlayerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D405E7341C4D473600FA6537 /* TwoPlayerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPlayerGameUITests.swift; sourceTree = "<group>"; };
+		D405E7361C4D473600FA6537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D405E70E1C4D473500FA6537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D405E7221C4D473600FA6537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D405E72D1C4D473600FA6537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D405E7081C4D473500FA6537 = {
+			isa = PBXGroup;
+			children = (
+				D405E7131C4D473500FA6537 /* TwoPlayerGame */,
+				D405E7281C4D473600FA6537 /* TwoPlayerGameTests */,
+				D405E7331C4D473600FA6537 /* TwoPlayerGameUITests */,
+				D405E7121C4D473500FA6537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D405E7121C4D473500FA6537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D405E7111C4D473500FA6537 /* TwoPlayerGame.app */,
+				D405E7251C4D473600FA6537 /* TwoPlayerGameTests.xctest */,
+				D405E7301C4D473600FA6537 /* TwoPlayerGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D405E7131C4D473500FA6537 /* TwoPlayerGame */ = {
+			isa = PBXGroup;
+			children = (
+				D405E7141C4D473600FA6537 /* AppDelegate.swift */,
+				D405E7161C4D473600FA6537 /* ViewController.swift */,
+				D405E7181C4D473600FA6537 /* Main.storyboard */,
+				D405E71B1C4D473600FA6537 /* Assets.xcassets */,
+				D405E71D1C4D473600FA6537 /* LaunchScreen.storyboard */,
+				D405E7201C4D473600FA6537 /* Info.plist */,
+			);
+			path = TwoPlayerGame;
+			sourceTree = "<group>";
+		};
+		D405E7281C4D473600FA6537 /* TwoPlayerGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				D405E7291C4D473600FA6537 /* TwoPlayerGameTests.swift */,
+				D405E72B1C4D473600FA6537 /* Info.plist */,
+			);
+			path = TwoPlayerGameTests;
+			sourceTree = "<group>";
+		};
+		D405E7331C4D473600FA6537 /* TwoPlayerGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D405E7341C4D473600FA6537 /* TwoPlayerGameUITests.swift */,
+				D405E7361C4D473600FA6537 /* Info.plist */,
+			);
+			path = TwoPlayerGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D405E7101C4D473500FA6537 /* TwoPlayerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D405E7391C4D473600FA6537 /* Build configuration list for PBXNativeTarget "TwoPlayerGame" */;
+			buildPhases = (
+				D405E70D1C4D473500FA6537 /* Sources */,
+				D405E70E1C4D473500FA6537 /* Frameworks */,
+				D405E70F1C4D473500FA6537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoPlayerGame;
+			productName = TwoPlayerGame;
+			productReference = D405E7111C4D473500FA6537 /* TwoPlayerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D405E7241C4D473600FA6537 /* TwoPlayerGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D405E73C1C4D473600FA6537 /* Build configuration list for PBXNativeTarget "TwoPlayerGameTests" */;
+			buildPhases = (
+				D405E7211C4D473600FA6537 /* Sources */,
+				D405E7221C4D473600FA6537 /* Frameworks */,
+				D405E7231C4D473600FA6537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D405E7271C4D473600FA6537 /* PBXTargetDependency */,
+			);
+			name = TwoPlayerGameTests;
+			productName = TwoPlayerGameTests;
+			productReference = D405E7251C4D473600FA6537 /* TwoPlayerGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D405E72F1C4D473600FA6537 /* TwoPlayerGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D405E73F1C4D473600FA6537 /* Build configuration list for PBXNativeTarget "TwoPlayerGameUITests" */;
+			buildPhases = (
+				D405E72C1C4D473600FA6537 /* Sources */,
+				D405E72D1C4D473600FA6537 /* Frameworks */,
+				D405E72E1C4D473600FA6537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D405E7321C4D473600FA6537 /* PBXTargetDependency */,
+			);
+			name = TwoPlayerGameUITests;
+			productName = TwoPlayerGameUITests;
+			productReference = D405E7301C4D473600FA6537 /* TwoPlayerGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D405E7091C4D473500FA6537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nicholas Ivanecky";
+				TargetAttributes = {
+					D405E7101C4D473500FA6537 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D405E7241C4D473600FA6537 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D405E7101C4D473500FA6537;
+					};
+					D405E72F1C4D473600FA6537 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D405E7101C4D473500FA6537;
+					};
+				};
+			};
+			buildConfigurationList = D405E70C1C4D473500FA6537 /* Build configuration list for PBXProject "TwoPlayerGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D405E7081C4D473500FA6537;
+			productRefGroup = D405E7121C4D473500FA6537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D405E7101C4D473500FA6537 /* TwoPlayerGame */,
+				D405E7241C4D473600FA6537 /* TwoPlayerGameTests */,
+				D405E72F1C4D473600FA6537 /* TwoPlayerGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D405E70F1C4D473500FA6537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D405E71F1C4D473600FA6537 /* LaunchScreen.storyboard in Resources */,
+				D405E71C1C4D473600FA6537 /* Assets.xcassets in Resources */,
+				D405E71A1C4D473600FA6537 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D405E7231C4D473600FA6537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D405E72E1C4D473600FA6537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D405E70D1C4D473500FA6537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D405E7171C4D473600FA6537 /* ViewController.swift in Sources */,
+				D405E7151C4D473600FA6537 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D405E7211C4D473600FA6537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D405E72A1C4D473600FA6537 /* TwoPlayerGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D405E72C1C4D473600FA6537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D405E7351C4D473600FA6537 /* TwoPlayerGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D405E7271C4D473600FA6537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D405E7101C4D473500FA6537 /* TwoPlayerGame */;
+			targetProxy = D405E7261C4D473600FA6537 /* PBXContainerItemProxy */;
+		};
+		D405E7321C4D473600FA6537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D405E7101C4D473500FA6537 /* TwoPlayerGame */;
+			targetProxy = D405E7311C4D473600FA6537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D405E7181C4D473600FA6537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D405E7191C4D473600FA6537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D405E71D1C4D473600FA6537 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D405E71E1C4D473600FA6537 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D405E7371C4D473600FA6537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D405E7381C4D473600FA6537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D405E73A1C4D473600FA6537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoPlayerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasivanecky.TwoPlayerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D405E73B1C4D473600FA6537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoPlayerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasivanecky.TwoPlayerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D405E73D1C4D473600FA6537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwoPlayerGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasivanecky.TwoPlayerGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoPlayerGame.app/TwoPlayerGame";
+			};
+			name = Debug;
+		};
+		D405E73E1C4D473600FA6537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwoPlayerGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasivanecky.TwoPlayerGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoPlayerGame.app/TwoPlayerGame";
+			};
+			name = Release;
+		};
+		D405E7401C4D473600FA6537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwoPlayerGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasivanecky.TwoPlayerGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwoPlayerGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D405E7411C4D473600FA6537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwoPlayerGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasivanecky.TwoPlayerGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwoPlayerGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D405E70C1C4D473500FA6537 /* Build configuration list for PBXProject "TwoPlayerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D405E7371C4D473600FA6537 /* Debug */,
+				D405E7381C4D473600FA6537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D405E7391C4D473600FA6537 /* Build configuration list for PBXNativeTarget "TwoPlayerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D405E73A1C4D473600FA6537 /* Debug */,
+				D405E73B1C4D473600FA6537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D405E73C1C4D473600FA6537 /* Build configuration list for PBXNativeTarget "TwoPlayerGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D405E73D1C4D473600FA6537 /* Debug */,
+				D405E73E1C4D473600FA6537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D405E73F1C4D473600FA6537 /* Build configuration list for PBXNativeTarget "TwoPlayerGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D405E7401C4D473600FA6537 /* Debug */,
+				D405E7411C4D473600FA6537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D405E7091C4D473500FA6537 /* Project object */;
+}
